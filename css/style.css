@@ -1216,7 +1216,23 @@ body{
     background: #fff;
     text-align: center;
   }
-
+  .header-3 .navbar a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width:100%;
+    top: 40px;
+    background: var(--green);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform.4s linear  ;
+  }
+  .header-3 .navbar a:hover::before{
+    transform: scaleX(1);
+   transform-origin: left;
+  }
   .header-2 {
     flex-flow: column;
   }
@@ -1230,7 +1246,9 @@ body{
     background-position: right !important;
     z-index: 0;
   }
-
+  .deal .row .image img {
+    width: 100%;
+  }
   .home .home-slider .box::before {
     content: '';
     position: absolute;
@@ -1249,7 +1267,7 @@ body{
   .sidebar{
     position: relative;
     margin: 0;
-    width: 230%;
+    width: 225%;
   }
 
 }
@@ -1277,7 +1295,9 @@ body{
     font-size: 1.5rem;
   }
 
-
+  .deal .row .image img {
+    width: 100%;
+  }
 
 
 }
