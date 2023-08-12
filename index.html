@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plant Palace</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <script src="http://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-
-   
+    <link rel="stylesheet" href="css/style.css">  
     <script>
 
 
@@ -256,7 +253,7 @@ function displaycart() {
                     <img class='rowimg' src=${product.images}>
                     <p>${product.name}</p>
                     <p>${product.price}.00</p>
-                    <i class='fa-solid fa-trash' onclick='delElement(${j++})'></i>
+                     <i class='fas fa-trash' onclick='delElement(${j++})'></i>
                 </div>
             </div>
         `).join('');
@@ -370,7 +367,7 @@ function displaycart() {
                 <a href="#Plant informations">Plant Information</a>
                 <a href="#contact">contact</a>
             </nav>
-            <div class="cart" onclick="show()"><i class="fa-solid fa-cart-shopping"></i><p id="count" >0</p></div>
+            <div class="cart" onclick="show()"><i class="fas fa-cart-shopping"></i><p id="count" >0</p></div>
         </div>
             <!-- <div class="cart" onclick="show()"><i class="fa-solid fa-cart-shopping" ></i><p id="count" >0</p></div> -->
         
@@ -826,8 +823,8 @@ function displaycart() {
             });
         </script>
          <!-- custom js file link  -->
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script>
 
-    <script src="js/search.js"></script>
+    <script src="js/search.js"></script> -->
 </body>
 </html>
