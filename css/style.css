@@ -15,7 +15,9 @@
   align-items: center;
   padding:1px 13px;
 }
-
+.fa-solid{
+  color: green;
+}
 .cart p{
   height: 22px;
   width: 22px;
@@ -295,7 +297,7 @@ section {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.cart i{
+.fa-solid{
   color:white;
   font-size: 15px;
 }
@@ -346,12 +348,11 @@ section {
   font-size: 20px;
   margin-left: 20px;
 }
-.row-img i{
+.fa-trash{
   margin-left: 50px;
   color: var(--green);
-  font-size: 20px;
 }
-.row-img i:hover{
+.fa-trash:hover{
   cursor: pointer;
   color: #333;
 }

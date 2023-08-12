@@ -159,7 +159,7 @@ function show(){
                      <img class='rowimg' src=${product.images}>
                      <p>${product.name}</p>
                      <p>${product.price}.00</p>
-                     <i class='fas fa-trash' onclick='delElement(${j++})'></i>
+                     <i class='fa-solid fa-trash' onclick='delElement(${j++})'></i>
                  </div>
              </div>
          `).join('');
